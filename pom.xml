@@ -7,7 +7,7 @@
   </parent>
   <artifactId>maven-trang-plugin</artifactId>
   <packaging>maven-plugin</packaging>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <name>Maven Trang Plugin</name>
   <description>
     This simple plugin invokes Trang on a set of input files to
