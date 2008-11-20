@@ -4,12 +4,20 @@
   <parent>
     <groupId>org.grumblesmurf</groupId>
     <artifactId>grumblesmurf-parent</artifactId>
-    <version>7</version>
+    <version>8</version>
   </parent>
   <artifactId>maven-trang-plugin</artifactId>
   <packaging>maven-plugin</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>maven-trang-plugin Maven Mojo</name>
+  <name>Maven Trang Plugin</name>
+  <description>
+    This simple plugin invokes Trang on a set of input files to produce an output file.
+  </description>
+  <scm>
+    <connection>scm:hg:http://svn.grumblesmurf.org/mercurial/maven-trang-plugin/</connection>
+    <developerConnection>scm:hg:ssh://svn.grumblesmurf.org/mercurial/maven-trang-plugin/</developerConnection>
+    <url>http://svn.grumblesmurf.org/mercurial/maven-trang-plugin/</url>
+  </scm>
   <dependencies>
     <dependency>
       <groupId>org.apache.maven</groupId>
@@ -22,4 +30,16 @@
       <version>20081028</version>
     </dependency>
   </dependencies>
+  <reporting>
+    <plugins>
+      <plugin>
+        <artifactId>maven-plugin-plugin</artifactId>
+        <configuration>
+          <requirements>
+            <jdk>1.5</jdk>
+          </requirements>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
 </project>
