@@ -11,7 +11,9 @@
   <version>1.0-SNAPSHOT</version>
   <name>Maven Trang Plugin</name>
   <description>
-    This simple plugin invokes Trang on a set of input files to produce an output file.
+    This simple plugin invokes Trang on a set of input files to
+    produce an output file.  For more information about Trang, see
+    http://www.thaiopensource.com/relaxng/trang.html.
   </description>
   <scm>
     <connection>scm:hg:http://svn.grumblesmurf.org/mercurial/maven-trang-plugin/</connection>
