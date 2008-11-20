@@ -29,7 +29,7 @@ import java.util.Arrays;
 import com.thaiopensource.relaxng.translate.Driver;
 
 /**
- * Goal which touches a timestamp file.
+ * Goal which executes Trang on a set of files.
  *
  * @goal trang
  */
