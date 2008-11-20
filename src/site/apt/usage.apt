@@ -1,0 +1,45 @@
+ ------
+ Usage
+ ------
+ Espen Wiborg
+ ------
+ 2008-11-20
+ ------
+
+Usage
+
+ * Trang goal
+
+ This example will convert <<<src/main/rnc/schema.rnc>>> to XSD format
+ and place the output in <<<target/trang/schema.xsd>>>.
+
+---------------------------
+<project>
+  ...
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.grumblesmurf</groupId>
+        <artifactId>maven-trang-plugin</artifactId>
+        <version>1.0</version>
+        <executions>
+          <execution>
+            <id>trang-convert</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>trang</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <inputFiles>
+            <inputFile>src/main/rnc/schema.rnc</inputFile>
+          </inputFiles>
+          <outputFileName>schema.xsd</outputFileName>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+   ...
+</project>
+---------------------------
