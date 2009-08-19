@@ -15,9 +15,9 @@
     http://www.thaiopensource.com/relaxng/trang.html.
   </description>
   <scm>
-    <connection>scm:hg:http://svn.grumblesmurf.org/mercurial/maven-trang-plugin/</connection>
-    <developerConnection>scm:hg:ssh://svn.grumblesmurf.org/mercurial/maven-trang-plugin/</developerConnection>
-    <url>http://svn.grumblesmurf.org/mercurial/maven-trang-plugin/</url>
+    <connection>scm:git:git://github.com/espenhw/maven-trang-plugin.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:espenhw/maven-trang-plugin.git</developerConnection>
+    <url>http://github.com/espenhw/maven-trang-plugin/</url>
   </scm>
   <dependencies>
     <dependency>
