@@ -19,6 +19,16 @@
     <developerConnection>scm:git:ssh://git@github.com:espenhw/maven-trang-plugin.git</developerConnection>
     <url>http://github.com/espenhw/maven-trang-plugin/</url>
   </scm>
+  <developers>
+    <developer>
+      <id>espenhw</id>
+      <name>Espen Wiborg</name>
+      <email>http://mailhide.recaptcha.net/d?k=01GFbnCG21M-KIunkjRjxWJw==&amp;c=BsOjYVXpToqQKNHwMd0ZRx5XPNMia6agfhzc3Fwtink=</email>
+      <roles>
+        <role>Evil mastermind</role>
+      </roles>
+    </developer>
+  </developers>
   <dependencies>
     <dependency>
       <groupId>org.apache.maven</groupId>
